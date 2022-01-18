@@ -1,0 +1,22 @@
+{
+  "name": "1-dependency",
+  "version": "1.0.0",
+  "description": "testexercixes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/affom1/javascript-ecosystem-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/affom1/javascript-ecosystem-exercises/issues"
+  },
+  "homepage": "https://github.com/affom1/javascript-ecosystem-exercises#readme",
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  }
+}
