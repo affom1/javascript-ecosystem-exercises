@@ -1,5 +1,7 @@
 import { TodoStore } from './todo-store';
 import { todoElement } from './todo-element';
+import '../styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
  
 /**
  * TodoComponent renders todos and handles events
