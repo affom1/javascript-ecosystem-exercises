@@ -32,9 +32,16 @@ describe('TodoStore', function () {
 
         it('should sort todos by status', function () {
             // Add 3 todos
+            store.addTodo('a first task');
+            store.addTodo('c second task');
+            store.addTodo('b third task');
             // Set the second one to done
+            store.setDone(1);
             // Verify that the second one is last in the list
+            const lastTodo = store.todos[2];
+            expect(lastTodo.id).toBe(1);
             // Verify that the last one is done
+            expect(lastTodo.done).toBe(true);
         });
 
     });
